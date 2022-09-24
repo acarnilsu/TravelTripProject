@@ -8,7 +8,7 @@ using TravelTripProject.Models.Sınıflar;
 namespace TravelTripProject.Controllers
 {
     public class AboutController : Controller
-    {
+    { 
         // GET: About
         Context c = new Context();
         public ActionResult Index()
