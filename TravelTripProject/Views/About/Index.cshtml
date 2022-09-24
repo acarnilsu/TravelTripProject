@@ -1,5 +1,5 @@
 ﻿@using TravelTripProject.Models.Sınıflar
-@model List<Hakkımızda>
+@model List<Hakkimizda>
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_TestLayout.cshtml";
@@ -10,12 +10,12 @@
     <div class="wrap">
         <div class="about">
             <h3>Hakkımızda</h3>
-            <img src="~/web/images/about_banner.jpg" alt="" />
-            @foreach(var x in Model)
+            @foreach (var x in Model)
             {
+                <img src="@x.ImageUrl" alt="" />
                 <p>@x.Comment</p>
             }
-            
+
         </div>
     </div>
 </div>

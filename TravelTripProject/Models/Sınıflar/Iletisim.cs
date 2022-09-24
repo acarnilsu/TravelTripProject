@@ -6,7 +6,7 @@ using System.Web;
 
 namespace TravelTripProject.Models.Sınıflar
 {
-    public class Iletişim
+    public class Iletisim
     {
         [Key]
         public int ID { get; set; }
