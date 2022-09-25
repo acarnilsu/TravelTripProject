@@ -3,7 +3,7 @@
     <h3>Bir Yorum Yapın</h3>
     
     <form method="post">
-        <input type="text" placeholder="ID:" name="BlogID" value="@ViewBag.deger" required />
+        <input type="hidden" placeholder="ID:" name="BlogID" value="@ViewBag.deger" required />
         <input type="text" placeholder="Kullanıcı Adı:" name="UserName" required />
         <input type="text" placeholder="Mail:" name="Mail" required />
         <textarea placeholder="Yorum" name="Comment"></textarea>

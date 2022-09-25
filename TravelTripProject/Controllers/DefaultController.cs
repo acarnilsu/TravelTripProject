@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using TravelTripProject.Models.Sınıflar;
 
-
+//
 namespace TravelTripProject.Controllers
 {
     
